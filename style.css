@@ -1,30 +1,32 @@
-/*CSS syntax*/
+
+/*CSS syntax
 h1{
    color: red; 
    text-align: center;
 }
-
-/*CSS selectors*/
+*/
+/*CSS selectors
 #myInfo {
    color: red; 
    text-align: center;
 }
-
+*/
 
 
 /*Grouping selectors*/
 /*this affects every element on the page*/
-/*universal selectors*/
+/*universal selectors
 *{
    text-align:center;
    color:blue;
 }
-
-/*Grouping selector*/
+*/
+/*Grouping selector
 h1, h2, p {
    text-align:center;
    color: red;
 }
+ */
 /*types of css
 Inline css
 Internal css
@@ -36,3 +38,49 @@ p.para {
 }
 
 /*html colors----RGB, HEX are html predefined colors*/
+
+/*CSS backgrounds*/
+
+body {
+   background-color: white;
+}
+
+/*opacity/Transparency*/
+div {
+   background-color: green;
+}
+
+div.first {
+   opacity: 0.1;
+}
+
+div.second {
+   opacity: 0.3;
+}
+
+div.third {
+   opacity: 0.6;
+}
+/*Transparency using RGBA*/
+div.first {
+   background: rgba(0,128 ,0 , 1);
+}
+div.first {
+   background: rgba(0,128 ,0 , 0.1);
+}
+
+div.second {
+   background: rgba(0,128 ,0 , 0.3);
+}
+
+div.third {
+   background: rgba(0,128 ,0 , 0.6);
+}
+
+div.first {
+   background: rgba(0,128 ,0 , 0.1);
+}
+
+/*Background image*/
+
+

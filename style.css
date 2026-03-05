@@ -13,3 +13,17 @@ h1{
 p.para {
    color: green;
 }
+
+/*Grouping selectors*/
+/*this affects every element on the page*/
+/*universal selectors*/
+*{
+   text-align:center;
+   color:blue;
+}
+
+/*Grouping selector*/
+h1, h2, p {
+   text-align:center;
+   color: red;
+}

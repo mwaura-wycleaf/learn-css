@@ -10,9 +10,7 @@ h1{
    text-align: center;
 }
 
-p.para {
-   color: green;
-}
+
 
 /*Grouping selectors*/
 /*this affects every element on the page*/
@@ -27,3 +25,14 @@ h1, h2, p {
    text-align:center;
    color: red;
 }
+/*types of css
+Inline css
+Internal css
+External css*/
+
+/*CSS comments*/
+p.para {
+   color: green;/*Set text color to red*/
+}
+
+/*html colors----RGB, HEX are html predefined colors*/

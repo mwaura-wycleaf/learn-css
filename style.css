@@ -1,5 +1,15 @@
 /*CSS syntax*/
-p{
+h1{
    color: red; 
    text-align: center;
+}
+
+/*CSS selectors*/
+#myInfo {
+   color: red; 
+   text-align: center;
+}
+
+p.para {
+   color: green;
 }

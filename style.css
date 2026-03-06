@@ -81,6 +81,41 @@ div.first {
    background: rgba(0,128 ,0 , 0.1);
 }
 
-/*Background image*/
+/*Background image
+body {
+   background-image: url(backiee-301267.jpg);
+}
+*/
 
+/*Background image repeat
+body {
+   background-image: url(backiee-301267.jpg);
+   background-repeat: repeat-x;
+   background-repeat: no-repeat;
+   background-position: right top;
+}
+*/
 
+/*Background Attachment
+body {
+   background-image: url(backiee-301267.jpg);
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: fixed;
+   background-attachment: scroll;
+}
+*/
+
+/*Background shorthand
+
+body {
+   background-color: #ffffff;
+   background-image:url(backiee-301267.jpg) ;
+   background-repeat: no-repeat;
+   background-position: right top;
+}
+
+body {
+   background:#ffffff url(backiee-301267.jpg) no-repeat right top;
+}
+*/

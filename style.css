@@ -119,3 +119,51 @@ body {
    background:#ffffff url(backiee-301267.jpg) no-repeat right top;
 }
 */
+
+/*CSS borders*/
+/*Border width and color
+p.one {
+   border-style: solid;
+   border-width: 5px;
+   border-color: red;
+}
+
+p.two {
+   border-style: solid;
+   border-width: medium;
+   border-color: green;
+}
+
+p.three {
+   border-style: dotted;
+   border-width: 2px;
+   border-color: blue;
+}
+
+p.four {
+   border-style: dotted;
+   border-width: thick;
+   border-color:powderblue;
+}
+
+p.five {
+   border-style: double;
+   border-width:15px;
+   border-color: rebeccapurple;
+}
+/*Border property for individual sides
+
+p.six {
+   border-top-style: dotted;
+   border-right-style: solid;
+   border-bottom-style: dotted;
+   border-left-style: solid;
+
+}
+*/
+/*CSS shorthand property and rounded borders
+p {
+   border:2px solid red;
+   border-radius: 5px;
+}
+*/

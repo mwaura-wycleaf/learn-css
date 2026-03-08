@@ -445,4 +445,25 @@ img {
    top: 0px;
    z-index: -1;
 }
-   */
+*/
+
+/*CSS overflow
+#overflowTest {
+   background: hotpink;
+   color: white;
+   padding: 15px;
+   width: 90%;
+   height: 100px;
+   overflow-y: scroll;
+   /*overflow: scroll;
+   /overflow-x: scroll;
+   border: 1px solid gray;
+}
+*/
+
+/* CSS Float
+
+.six {
+   float: right;
+}
+ */

@@ -240,7 +240,7 @@ h2 {
 }
 */
 
-/*Text decoration*/
+/*Text decoration
 h1 {
    text-decoration-line: overline;
    text-decoration-style: solid;
@@ -262,17 +262,17 @@ p{
    text-decoration-style:wavy;
 }
 
-/*text decoration short hand*/
+/*text decoration short hand
 P{
    text-decoration: underline red double 5px;
 }
 
-/*Text transformation*/
+/*Text transformation
 P {
    text-transform: uppercase;
 }
 
-/*Text spacing*/
+/*Text spacing
 p {
    text-indent:50px;
 }
@@ -292,3 +292,43 @@ h3 {
 p {
    word-spacing: 10px;
 }
+*/
+
+/*CSS fonts
+p.one {
+   font-family: "Times New Roman", 'Times New Roman', Times, serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 40px;
+}
+
+p.two {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: lighter;
+   font-size: 2.5em;
+}
+
+p.three {
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-style: oblique;
+   font-weight: bold;
+   font-size: 2.5rem;
+}
+p.four {
+   font-family: "Brush Script MT";
+   font-weight: 900;
+   font-size: 19px;
+}
+   */
+/*Google fonts
+<link rel="Stylesheet" href ="googlefont.link> 
+fonts that complement each other
+font-family:Verdana, sans-serif;//body
+font-family:Georgia,seif;//h1
+*/
+/*font shorthand*/
+p {
+   font: italic bold 16px Arial, sans-serif;
+}
+

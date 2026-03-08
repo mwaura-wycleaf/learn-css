@@ -463,7 +463,22 @@ img {
 
 /* CSS Float
 
-.six {
-   float: right;
+.three {
+   float: left;
+   float:right;
+   clear:both;
 }
- */
+
+/*Display:inline block
+.three, .four {
+   display: inline-block;
+}
+*/
+
+/*CSS align*/
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+}

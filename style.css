@@ -327,8 +327,38 @@ fonts that complement each other
 font-family:Verdana, sans-serif;//body
 font-family:Georgia,seif;//h1
 */
-/*font shorthand*/
+/*font shorthand
 p {
    font: italic bold 16px Arial, sans-serif;
 }
+*/
+/*Font-icons*/
+/*Font-awesome
+<script scr="" crossorigin="">
+*/
+/*Bootstrap icons*/ 
+/*Google icons*/
 
+/*CSS links
+a {
+   color: hotpink;
+   background-color: yellow;
+   font-weight: bold;
+}
+/*a normal unvisited link
+a:link {
+   color: red;
+}
+
+a:visited {
+   color: green;
+}
+
+a:hover {
+   color: hotpink;
+}
+
+a:active {
+   color: blue;
+}
+*/

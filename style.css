@@ -39,13 +39,13 @@ p.para {
 
 /*html colors----RGB, HEX are html predefined colors*/
 
-/*CSS backgrounds*/
+/*CSS backgrounds
 
 body {
    background-color: white;
 }
 
-/*opacity/Transparency*/
+/*opacity/Transparency
 div {
    background-color: green;
 }
@@ -61,7 +61,7 @@ div.second {
 div.third {
    opacity: 0.6;
 }
-/*Transparency using RGBA*/
+/*Transparency using RGBA
 div.first {
    background: rgba(0,128 ,0 , 1);
 }
@@ -475,10 +475,60 @@ img {
 }
 */
 
-/*CSS align*/
+/*CSS align
 .center {
    display: flex;
    align-items: center;
    justify-content: center;
    height: 200px;
+}
+*/
+
+/*CSS pseudoclasses
+/*Unvisited link
+a:link {
+   color:#ff0000;
+}
+
+/*visited link
+a:visited {
+   color:#00ff00;
+}
+/*mouse over link
+a:hover {
+   color:#ff00ff;
+}
+/*selected link
+a:active {
+   color:#0000ff;
+}
+
+input:focus {
+   background-color: yellow;
+}
+
+/*Structural pseudo classes
+p:first-child {
+   color: blue;
+}
+
+p em:first-child {
+   color: blue;
+}
+*/
+/*pseudo elements*/
+p::first-line {
+   color: red;
+}
+
+p::first-letter {
+   color: blue;
+}
+
+p::before {
+   content: "**";
+}
+
+p::after {
+   content: "##";
 }

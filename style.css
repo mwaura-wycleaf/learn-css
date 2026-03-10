@@ -563,3 +563,45 @@ li a {
 display:block;
 }
 */
+
+/*CSS attribute selectors
+a[target] {
+   color: red;
+}
+
+a[target="_blank"]{
+   background-color: yellow;
+}
+
+input[type="text"] {
+   border:2px solid blue;
+}
+*/
+
+/*css form styling
+input {
+   width:100%;
+}
+
+input[type="text"] {
+   border:2px solid blue;
+}
+
+input[type="text"]:focus {
+background-color: powderblue;
+border: i;
+}
+
+/*Inheritance
+.center {
+   color: green;
+}
+.none {
+   color: inherit;
+}
+
+/*important gives priority
+p  {
+   color: yellow !important;
+}
+*/

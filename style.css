@@ -663,3 +663,26 @@ p.two {
    text-overflow: ellipsis;
 }
 */
+/*css 2d transform*
+.sticky {
+   width: 150px;
+   height: 150px;
+   background-color: yellow;
+   border: 1px solid black;
+   transform: translate(50px, 100px);
+   transform: rotatex(20deg);
+   transform: scale(2,2);
+   transform: skew(20deg);
+}
+
+/*css 3d transform
+
+.sticky {
+   width: 150px;
+   height: 150px;
+   background-color: yellow;
+   border: 1px solid black;
+   transform:rotateX(150deg);
+}
+*/
+

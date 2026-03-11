@@ -605,3 +605,29 @@ p  {
    color: yellow !important;
 }
 */
+
+/*Multiple backgrounds
+body {
+   background-image: url(backiee-301267.jpg), url(paper.gif);
+   background-position: right bottom, left top;
+   background-repeat: no-repeat, repeat;
+   background-size: contain,cover;
+}
+*/
+
+/*CSS gradients
+.grad1 {
+   height: 200px;
+   background-image: linear-gradient(to top,red, yellow);
+}
+
+.grad2 {
+   height: 150px;
+   background-image: radial-gradient(red, yellow, green);
+}
+
+.grad3 {
+   height: 150PX;
+   background-image: conic-gradient(red, yellow, green);
+}
+   */

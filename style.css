@@ -745,3 +745,30 @@ div:hover {
    transition-delay: 1s;
 }
 */
+
+/*Animations
+
+.grad5 {
+   width:100px;
+   height: 100px;
+   background-color: red;
+   animation-name: myAnimation;
+   animation-duration: 3s;
+   animation-delay: 2s;
+   animation-iteration-count:2 ;
+}
+
+@keyframes myAnimation {
+   from {background-color:red;}
+   to {background-color: ;}
+}
+
+@keyframes myAnimation {
+   0% {background-color: red;}
+   20% {background-color: yellow;}
+   40% {background-color: green;}
+   60% {background-color: blue;}
+   80% {background-color: brown;}
+   100% {background-color: black;}
+}
+*/

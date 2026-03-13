@@ -960,7 +960,7 @@ p {
    flex-shrink: 2;
 }
 
-*/
+
 
 .container {
    display: flex;
@@ -980,3 +980,27 @@ p {
    padding: 20px;
    font-size: 20px;
 }
+*/
+
+/*CSS grid*/
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns:repeat(3, 1fr);
+   column-gap: 2px;
+   background-color: dodgerblue;
+   padding: 10px;
+}
+
+.container div {
+   background-color: #f1f1f1;
+   border: 1px solid black;
+   padding: 10px;
+   font-size: 20px;
+}
+
+.item1 {
+   grid-row: 1 /span 2;
+   grid-column: 1 /span 2 ;
+}
+

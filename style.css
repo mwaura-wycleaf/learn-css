@@ -894,7 +894,7 @@ p {
    box-sizing: border-box ;
 }
 */
-/*Media Queries*/
+/*Media Queries
 @media screen and (min-width:480px) {
    body{
 
@@ -902,4 +902,81 @@ p {
 }
 @media screen  and (min-width:480px) and (max-width:768px) {
    
+}
+
+*/
+/*Flex box
+.container {
+   display: flex;
+   flex-direction: column;
+   flex-direction: row-reverse;
+   flex-direction: column-reverse;
+   background-color: dodgerblue;
+}
+
+.container div {
+   background-color: #f1f1f1;
+   margin: 10px;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
+}
+
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-wrap: wrap-reverse;
+   background-color: dodgerblue;
+}
+
+.container div {
+   background-color: #f1f1f1;
+   margin: 10px;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
+}
+
+
+
+.container {
+   display: flex;
+   justify-content: flex-start;
+   justify-content: center;
+   justify-content: flex-end;
+   justify-content: space-around;
+   justify-content: space-between;
+   background-color: dodgerblue;
+}
+  
+.container div {
+   background-color: #f1f1f1;
+   margin: 10px;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
+   flex-grow: 2;
+   flex-shrink: 2;
+}
+
+*/
+
+.container {
+   display: flex;
+   height: 200px;
+   background-color: dodgerblue;
+   align-items: center;
+   align-items: flex-start;
+   align-items: flex-end;
+   align-items: stretch;
+
+}
+
+.container div {
+   background-color: #f1f1f1;
+   margin: 10px;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
 }

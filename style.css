@@ -867,3 +867,39 @@ div:hover {
    background-color: lightgray;
 }
 */
+/*User interface/resizing
+div#overflowTest {
+   border:2px solid black;
+   padding:20px;
+   resize: horizontal;
+   overflow: auto;
+}
+
+/*var() function
+:root {
+   --primary--bg-clor:green;
+   --primary-color:yellow;
+}
+
+p {
+   color:var(--primary--bg-clor);
+}
+*/
+/*Box-sizing
+.grad1 {
+   width: 300px;
+   height: 100px;
+   padding: 50px;
+   border: 1px solid black;
+   box-sizing: border-box ;
+}
+*/
+/*Media Queries*/
+@media screen and (min-width:480px) {
+   body{
+
+   }
+}
+@media screen  and (min-width:480px) and (max-width:768px) {
+   
+}
